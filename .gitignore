@@ -1,0 +1,26 @@
+# Eclipse related files
+.classpath
+.cproject
+.deps
+.project
+.settings
+.metadata/
+.pydevproject
+
+# STS
+.springBeans
+# Maven and build related
+target/
+
+# IntelliJ IDEA related files
+*.iml
+*.iws
+*.ipr
+.idea/
+
+.sonar-ide.properties
+
+*.orig
+
+# Python c files
+*.pyc
