@@ -33,6 +33,11 @@ class SwitchVM:
                            font="Helvetica 11 bold")
         self.label.pack()
 
+        self.img = PhotoImage(file="robot_framework.png").subsample(7, 7)
+        self.logo = Label(self.frame,
+                          image=self.img)
+        self.logo.pack()
+
         current_vm, current_browser, setup_enabled, teardown_enabled = self.read_current_configuration(self.config_file)
 
         for machine in self.virtual_machines:
